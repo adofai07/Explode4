@@ -220,7 +220,7 @@ def find_best_move(g: Explode4, evf: callable, depth: int, turn: int, all_moves:
         return depth_mv_ev_list[0][1], depth_mv_ev_list[0][0]
     
 def fight(weights1: list[int], weights2: list[int]):
-    N = 5
+    N = 10
     
     cnt1 = 0
     cnt2 = 0
